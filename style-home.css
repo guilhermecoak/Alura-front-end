@@ -1,0 +1,125 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+header {
+    background: #BBBBBB; 
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 110px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 10px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+
+}
+
+nav li {
+    position: relative 50px
+}
+
+#banner {
+    width: 100%;
+    margin-bottom: 2px;
+    margin-top: 4px;
+}
+
+.principal {
+    background: #CCCCCC;
+    padding: 30px;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+
+.titulo-centralizado {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px
+}
+
+em strong {
+    color: #FF0000
+}
+
+.beneficios {
+    background: white;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.lista-beneficios {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    margin: 10%;
+    padding: 40px 30px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #BBBBBB;
+    
+}
+ol, ul {
+	list-style:disc ;
+}
+
+
+.imagembeneficios {
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-top: 20px 0 0;
+}
+
+.beneficios-img{
+    max-width: 50%;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
