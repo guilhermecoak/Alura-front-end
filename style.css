@@ -1,14 +1,15 @@
-body{
+body {
     font-family: 'Roboto Slab', serif;
 }
-header{
-    background:#BBBBBB;
+
+header {
+    background: #BBBBBB;
 }
 
-.caixa{
+.caixa {
     position: relative;
-    width:940px;
-    margin: 0 auto;  
+    width: 940px;
+    margin: 0 auto;
 }
 
 nav {
@@ -18,54 +19,57 @@ nav {
 }
 
 nav li {
-    display:inline;
+    display: inline;
     margin: 0 0 0 15px;
 }
+
 nav a {
     text-transform: uppercase;
     color: black;
     font-weight: bold;
     font-size: 22px;
-    text-decoration: none;  
+    text-decoration: none;
 }
+
 nav a:hover {
     color: #c78c19;
     text-decoration: underline;
 
 }
 
-nav li{
-    position:relative
-    50px
+nav li {
+    position: relative 50px
 }
 
 
-.produtos{
-    width:940px;
+.produtos {
+    width: 940px;
     margin: 0 auto;
-    padding:50px 0;
+    padding: 50px 0;
 }
 
 .produtos li {
-    display:inline-block;
-    text-align:center;
+    display: inline-block;
+    text-align: center;
     width: 30%;
-    vertical-align: top;      
+    vertical-align: top;
     margin: 0 1.5%;
-    padding: 30px 20px;	
+    padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
 }
-.produtos li:hover{
+
+.produtos li:hover {
     border-color: #c78c19;
     font-size: 40px;
 }
+
 .produtos li:hover h2 {
     font-size: 33px;
 }
 
-.produtos li:active{
+.produtos li:active {
     border-color: #088c19;
 }
 
@@ -73,52 +77,95 @@ nav li{
     font-size: 30px;
     font-weight: bold;
 }
-.produto-descricao{
+
+.produto-descricao {
     font-size: 18px;
 }
-.produto-preco{
+
+.produto-preco {
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
 }
-footer {    
+
+footer {
     text-align: center;
     background: url("bg.jpg");
     padding: 40px 0;
 }
-.copyright{
+
+.copyright {
     color: #FFFFFF;
     font-size: 18px;
     margin-top: 20px 0 0;
 }
 
-#main-produtos{
-   height: 550px;
+#main-produtos {
+    height: 550px;
 }
 
 .formulario {
-    
+
     width: 940px;
     margin: 0 auto;
-    
+
 
 }
+
 form {
-   margin: 40px 0;
+    margin: 40px 0;
 }
-form label, form p {
+
+form label,
+form legend {
     display: block;
     font-size: 20px;
-    margin :0 0 10px;
+    margin: 0 0 10px;
 }
+
 .input-padrao {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
 }
-.checkbox{
+
+.checkbox {
     margin: 20px 0;
 }
 
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
 
+.enviar:hover {
+    background: red;
+    color: #FFFFFF;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+    text-align: center;
+}
