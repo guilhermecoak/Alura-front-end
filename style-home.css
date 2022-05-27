@@ -1,152 +1,48 @@
-body{
-    font-family: 'Roboto Slab', serif;
-}
-
-header {
-    background: #BBBBBB; 
-}
-
-.caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-}
-
-nav {
-    position: absolute;
-    top: 110px;
-    right: 110px;
-}
-
-nav li {
-    display: inline;
-    margin: 0 0 0 10px;
-}
-
-nav a {
-    text-transform: uppercase;
-    color: black;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: #c78c19;
-    text-decoration: underline;
-
-}
-
-nav li {
-    position: relative 50px
-}
-
 #banner {
-    width: 100%;
-    margin-bottom: 2px;
-    margin-top: 4px;
+	width:100%;
 }
 
-.principal {
-    background: #fefefe;
-    padding: 3em ;
+.principal{
+	background: #CCCCCC;
+	padding: 30px;
 }
 
 .titulo-principal {
-    padding-left: 20px;
+	padding-left: 20px;
 }
 
-
 .titulo-centralizado {
-    text-align: center;
-    font-size: 2em;
-    font-weight: bold;
-    clear: left;
+	text-align: center
 }
 
 p {
-    text-align: center;
+	text-align: center;
 }
 
 #missao {
-    font-size: 20px
+	font-size: 20px
 }
 
 em strong {
-    color: #FF0000
+	color: #FF0000;
+}
+
+.itens {
+	font-style: italic
 }
 
 .beneficios {
-    background: #888888;
-    padding: 20px;
+	background: #FFFFFF;
+	padding: 20px;
 }
 
-h2 {
-    text-align: center;
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
 }
 
-.lista-beneficios {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-    margin: 10%;
-    padding: 40px 30px;
-    border: 2px solid #000000;
-    border-radius: 10px;
-    font-size: 20px;
-    background-color: #BBBBBB;
-    
+.imagembeneficios {
+	width: 50%;
 }
-ol, ul {
-	list-style:disc ;
-}
-
-
-
-
-.beneficios-img {
-    max-width: 50%;
-    border: 2px solid #000000;
-    border-radius: 10px;
-}
-
-footer {
-    text-align: center;
-    background: url("bg.jpg");
-    padding: 40px 0;
-}
-
-.copyright {
-    color: #FFFFFF;
-    font-size: 18px;
-    margin-top: 20px 0 0;
-}
-
-
-.utensilios {
-    width: 140px;
-    float: left;
-    margin: 0 20px 20px 0;
-}   
-.mapa{
-    padding: 3em 0;
-    background:linear-gradient(#FEFEFE, #888888);
-}
-.mapa p {
-    margin: 1em 0 2em;
-    text-align: center;
-}
-
-.mapa-conteudo {
-    width: 940px;
-    margin: 0 auto;
-}
-
-.video{
-    width: 800px;  
-    margin: 3em auto;
-}
-
-
- 
