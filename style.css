@@ -95,8 +95,7 @@ footer {
 }
 
 .contato-html {
-	padding-left: 8em;
-	
+	padding-left: 3em;	
 }
 
 form {
@@ -250,7 +249,7 @@ td, th {
 	margin: 2em auto;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 965px) {
 	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
 		width: auto;
 	}
@@ -261,9 +260,26 @@ td, th {
 
 	nav {
 		position: static;
+		text-align: center;
 	}
 
 	.lista-beneficios, .imagem-beneficios {
 		width: 100%;
+	}
+	.produtos {
+		width: 100%;
+	}	
+	.img-produto {
+		width: 50%;
+	}
+	.produtos li{
+		display: list-item;
+		width: auto;
+		margin-bottom: 2em;
+	}
+	.enviar {
+		width: auto;
+		padding-left: 4px;
+    	padding-right: 4px;
 	}
 }

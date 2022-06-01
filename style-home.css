@@ -28,8 +28,9 @@ em strong {
 }
 
 .itens {
-	font-style: italic
+	font-style: italic;	
 }
+
 
 .beneficios {
 	background: #FFFFFF;
@@ -41,6 +42,7 @@ ul {
 	vertical-align: top;
 	width: 20%;
 	margin-right: 15%;
+	margin-bottom: 3px;
 }
 
 .imagembeneficios {
