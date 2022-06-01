@@ -252,6 +252,7 @@ td, th {
 @media screen and (max-width: 965px) {
 	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
 		width: auto;
+		margin: 10px;
 	}
 
 	h1 {
